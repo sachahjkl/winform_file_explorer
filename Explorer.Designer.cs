@@ -209,9 +209,10 @@ namespace WinFormsApp1
             Controls.Add(toolStrip1);
             Controls.Add(statusStrip1);
             Controls.Add(menuStrip1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
             Name = "Explorer";
-            Text = "Form1";
+            Text = "Rudimentary File Explorer";
             Load += Explorer_Load;
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
