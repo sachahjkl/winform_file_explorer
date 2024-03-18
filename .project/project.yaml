@@ -1,0 +1,10 @@
+name: "winform_file_explorer"
+description: "A simple file explorer in C# .NET 8 using WinForm."
+topics:
+  - "C#"
+  - "winform"
+homepage: ""
+source:
+  provider: gitlab
+  namespace: "sachahjkl"
+  path: "sachahjkl/winform_file_explorer"
